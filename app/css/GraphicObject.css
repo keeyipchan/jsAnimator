@@ -1,0 +1,83 @@
+.GraphicObject_Graphic {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	z-index: 30;
+	-webkit-transform-origin: 0% 0%;
+}
+
+.GraphicObject_WheelContainer {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	top: -45px;
+	left: -45px;
+	z-index: 30;
+	-webkit-transform-origin: 50% 50%;
+	-webkit-border-radius: 40px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+
+.GraphicObject_Origin {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: 31;
+	-webkit-transform-origin: 50% 50%;
+	border: solid 2px hsl(160,10%,50%);
+	-webkit-border-radius: 40px;
+	cursor: move;
+	margin-top: 88px;
+	margin-left: 88px;
+	-webkit-box-shadow: 0px 2px 2px hsl(0,0%,20%);
+}
+
+.GraphicObject_Position {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	z-index: 31;
+	-webkit-transform-origin: 50% 50%;
+	border: solid 2px hsl(160,10%,50%);
+	-webkit-border-radius: 4px;
+	cursor: move;
+	margin-top: 38px;
+	margin-left: 88px;
+	-webkit-box-shadow: 0px 2px 2px hsl(0,0%,20%);
+}
+
+.GraphicObject_XScale {
+	width: 90px;
+	height: 0px;
+	position: absolute;
+	z-index: 31;
+	-webkit-transform-origin: 50% 50%;
+	border: solid 2px hsl(160,10%,50%);
+	-webkit-border-radius: 4px;
+	margin-top: 148px;
+	margin-left: 52px;
+}
+
+.GraphicObject_YScale {
+	width: 0px;
+	height: 90px;
+	position: absolute;
+	z-index: 31;
+	-webkit-transform-origin: 50% 50%;
+	border: solid 2px hsl(160,10%,50%);
+	-webkit-border-radius: 4px;
+	margin-top: 52px;
+	margin-left: 148px;
+}
+
+.ui-slider-handle {
+	position: absolute;
+	background: white;
+	-webkit-border-radius: 40px;
+	-webkit-box-shadow: 2px 2px 4px hsl(0,0%,20%);
+	width: 12px;
+	height: 12px;
+	margin-left: -6px;
+	margin-top: -6px;
+}

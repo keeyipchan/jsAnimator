@@ -1,0 +1,41 @@
+#tools {
+	-webkit-user-select: none;
+	cursor: default;
+
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 10000;
+	background: hsla(220,50%,10%,0.8);
+	color: hsl(0,0%,80%);
+	display: -webkit-box;
+}
+
+#toggleDopesheet {
+	position: absolute;
+	right: 2em;
+	bottom: 100%;
+	margin-bottom: 2px;
+	-webkit-border-radius: 4px;
+	padding: 2px 8px;
+	color: black;
+	background: hsl(30, 30%, 90%);
+	-webkit-box-shadow: 1px 1px 4px black;
+}
+#toggleDopesheet:hover {
+	background: hsl(200, 20%, 60%);
+}
+
+#playback {
+	position: absolute;
+	right: 4.5em;
+	background: inherit;
+	bottom: 100%;
+	-webkit-border-radius: 8px 8px 0 0;
+	padding: 2px;
+}
+#togglePlay {
+	width: 10em;
+}
+

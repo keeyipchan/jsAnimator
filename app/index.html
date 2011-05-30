@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel='stylesheet' href='../common/css/screen.css'/>
+		<link rel='stylesheet' href='../common/css/UIWheel.css'/>
+		<link rel='stylesheet' href='css/UIWheel.css'/>
+		<link rel='stylesheet' href='css/screen.css'/>
+		<link rel='stylesheet' href='css/scene.css'/>
+		<link rel='stylesheet' href='css/tools.css'/>
+		<link rel='stylesheet' href='css/dopesheet.css'/>
+		<link rel='stylesheet' href='css/GraphicObject.css'/>
+	</head>
+
+	<body>
+		<div id='screen'>
+			<div id='help'>
+				This is a proof-of-concept app for creating animations.
+				<br/>
+				Play the sample animation, then try creating your own.
+			</div>
+			<div id='scene'>
+				
+				<canvas id='ground' width='800' height='800'></canvas>
+				<div id='objects'></div>
+			</div>
+			<div id='tools'>
+				<div id='toggleDopesheet' title='Toggle dopesheet'>&nabla;</div>
+				<div id='playback'>
+					<button id='togglePlay'>Play @ 24 FPS</button>
+				</div>
+				<div id='dopesheet' class='Dopesheet'>
+					<div id='dopesheetColumns' class='DopeColumns'>
+						<div class='DopeColumn'><div class='DopeCell'>Obj</div></div>
+						<div class='DopeColumn'><div class='DopeCell'>0</div></div>
+						<div class='DopeColumn'><div class='DopeCell'>1</div></div>
+						<div class='DopeColumn'><div class='DopeCell'>2</div></div>
+						<div class='DopeColumn'><div class='DopeCell'>3</div></div>
+						<div class='DopeColumn'><div class='DopeCell'>4</div></div>
+					</div>
+					<div class='DopeActions'>
+						<button id='removeFrame'>Remove</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src='../common/lib/jquery-1.5.1.min.js'></script>
+		<script src='../common/lib/jquery-ui-1.8.13.custom.min.js'></script>
+		<script src='../common/lib/sylvester.src.js'></script>
+		<script src='../common/canvas.js'></script>
+		<script src='../common/UIWheel.js'></script>
+		<script src='src/GraphicObject.js'></script>
+		<script src='src/Frame.js'></script>
+		<script src='src/Animation.js'></script>
+		<script src='src/index.js'></script>
+	</body>
+</html>

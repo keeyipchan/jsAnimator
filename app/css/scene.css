@@ -1,0 +1,40 @@
+#scene {
+	position: absolute;
+	top: 45%;
+	bottom: 0;
+	left: 50%;
+	right: 0;
+	z-index: 0;
+	
+	-webkit-transform-style: preserve-3d;
+	-webkit-transform-origin: 0% 0%;
+	-webkit-perspective: 500000;
+}
+
+#objects {
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	z-index: 20;
+	-webkit-transform-origin: 50% 50%;
+	background: hsla(160,10%,20%,0.3);
+}
+
+.Object {
+	width: 200px;
+	height: 200px;
+	margin-top: -98px;
+	margin-left: -100px;
+	position: absolute;
+	z-index: 32;
+}
+
+#ground {
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	top: -400px;
+	left: -400px;
+	z-index: 2;
+	-webkit-transform-origin: 50% 50%;
+}
